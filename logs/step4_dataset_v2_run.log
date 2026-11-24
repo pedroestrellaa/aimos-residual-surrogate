@@ -1,0 +1,17 @@
+2026-11-24T16:16:03-03:00
+dataset v2: kernel damping 0-4 rad/s (two-body BEM <= 2.2, single-body fine+lid above), OMP_NUM_THREADS=1
+truth coefficients: CD=1.0 DELTA0=0.5 CG_COEF=50000.0
+100/1200 cases  147 s
+200/1200 cases  267 s
+300/1200 cases  385 s
+400/1200 cases  500 s
+500/1200 cases  613 s
+600/1200 cases  665 s
+700/1200 cases  782 s
+800/1200 cases  890 s
+900/1200 cases  995 s
+1000/1200 cases  1105 s
+1100/1200 cases  1210 s
+1200/1200 cases  1267 s
+wrote dataset.csv: 1200 rows in 1267 s
+2026-11-24T16:37:11-03:00

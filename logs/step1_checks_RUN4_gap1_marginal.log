@@ -1,0 +1,35 @@
+C1 reciprocity, C2 identical bodies, C5 damping sign (all gaps)
+  gap   1 m  C1 max rel. asymmetry                        1.021e-02   tol 0.01     FAIL
+  gap   1 m  C2 body1 vs body2 radiation diag             5.486e-16   tol 0.01     PASS
+  gap   1 m  C5 most negative B_ii (rel.)                 0.000e+00   tol 1e-06    PASS
+  gap 1.5 m  C1 max rel. asymmetry                        4.852e-03   tol 0.01     PASS
+  gap 1.5 m  C2 body1 vs body2 radiation diag             4.555e-16   tol 0.01     PASS
+  gap 1.5 m  C5 most negative B_ii (rel.)                 0.000e+00   tol 1e-06    PASS
+  gap   2 m  C1 max rel. asymmetry                        2.634e-03   tol 0.01     PASS
+  gap   2 m  C2 body1 vs body2 radiation diag             3.634e-16   tol 0.01     PASS
+  gap   2 m  C5 most negative B_ii (rel.)                 0.000e+00   tol 1e-06    PASS
+  gap   3 m  C1 max rel. asymmetry                        1.388e-03   tol 0.01     PASS
+  gap   3 m  C2 body1 vs body2 radiation diag             3.618e-16   tol 0.01     PASS
+  gap   3 m  C5 most negative B_ii (rel.)                 0.000e+00   tol 1e-06    PASS
+  gap   4 m  C1 max rel. asymmetry                        1.381e-03   tol 0.01     PASS
+  gap   4 m  C2 body1 vs body2 radiation diag             5.412e-16   tol 0.01     PASS
+  gap   4 m  C5 most negative B_ii (rel.)                 0.000e+00   tol 1e-06    PASS
+  gap   5 m  C1 max rel. asymmetry                        1.371e-03   tol 0.01     PASS
+  gap   5 m  C2 body1 vs body2 radiation diag             3.601e-16   tol 0.01     PASS
+  gap   5 m  C5 most negative B_ii (rel.)                 0.000e+00   tol 1e-06    PASS
+C3 long-wave limit (gap 2 m, lowest omega)
+  |F_heave|/K33 at omega=0.20 rad/s                       9.589e-01   tol 0.05     PASS
+C4 mesh convergence (gap 2 m, 1.0 m vs 0.5 m panels), omega 0.6-1.8 rad/s
+  A33 max rel. difference                                 6.667e-03   tol 0.05     PASS
+  B33 max rel. difference                                 6.174e-03   tol 0.05     PASS
+  |F3| max rel. difference                                2.526e-03   tol 0.05     PASS
+Interaction strength: max |A(b1 heave, b2 heave)| / max |A(b1 heave, b1 heave)|
+  gap   1 m   0.303
+  gap 1.5 m   0.294
+  gap   2 m   0.286
+  gap   3 m   0.272
+  gap   4 m   0.260
+  gap   5 m   0.249
+Heave natural frequency (uncoupled, fixed-point): 1.35 rad/s  (T = 4.6 s)
+Figure: figures/step1_bem_checks.png
+SOME CHECKS FAILED

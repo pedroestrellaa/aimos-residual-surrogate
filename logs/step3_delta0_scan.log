@@ -1,0 +1,38 @@
+2026-11-24T11:20:08-03:00
+DELTA0 = 0.5    sigma ratio range [0.906, 1.284]   max ratio range [0.889, 2.172]   MEETS
+     gap 1.5  Tp 6.0   k 1e+05: sigma 1.105  max 1.698
+     gap 1.5  Tp 6.0   k 1e+07: sigma 0.906  max 0.889
+     gap 1.5  Tp 12.0  k 1e+05: sigma 0.982  max 1.105
+     gap 1.5  Tp 12.0  k 1e+07: sigma 0.947  max 0.897
+     gap 5    Tp 6.0   k 1e+05: sigma 1.284  max 2.172
+     gap 5    Tp 6.0   k 1e+07: sigma 0.912  max 0.908
+     gap 5    Tp 12.0  k 1e+05: sigma 1.149  max 1.330
+     gap 5    Tp 12.0  k 1e+07: sigma 0.963  max 0.929
+DELTA0 = 0.75   sigma ratio range [0.906, 1.161]   max ratio range [0.890, 1.705]   MEETS
+     gap 1.5  Tp 6.0   k 1e+05: sigma 0.991  max 1.372
+     gap 1.5  Tp 6.0   k 1e+07: sigma 0.906  max 0.890
+     gap 1.5  Tp 12.0  k 1e+05: sigma 0.920  max 0.951
+     gap 1.5  Tp 12.0  k 1e+07: sigma 0.947  max 0.897
+     gap 5    Tp 6.0   k 1e+05: sigma 1.161  max 1.705
+     gap 5    Tp 6.0   k 1e+07: sigma 0.912  max 0.908
+     gap 5    Tp 12.0  k 1e+05: sigma 1.049  max 1.066
+     gap 5    Tp 12.0  k 1e+07: sigma 0.963  max 0.929
+DELTA0 = 1.0    sigma ratio range [0.891, 1.087]   max ratio range [0.855, 1.468]   MEETS
+     gap 1.5  Tp 6.0   k 1e+05: sigma 0.914  max 1.180
+     gap 1.5  Tp 6.0   k 1e+07: sigma 0.906  max 0.890
+     gap 1.5  Tp 12.0  k 1e+05: sigma 0.891  max 0.855
+     gap 1.5  Tp 12.0  k 1e+07: sigma 0.947  max 0.898
+     gap 5    Tp 6.0   k 1e+05: sigma 1.087  max 1.468
+     gap 5    Tp 6.0   k 1e+07: sigma 0.912  max 0.908
+     gap 5    Tp 12.0  k 1e+05: sigma 1.001  max 0.999
+     gap 5    Tp 12.0  k 1e+07: sigma 0.963  max 0.929
+DELTA0 = 1.5    sigma ratio range [0.822, 0.995]   max ratio range [0.764, 1.220]   MEETS
+     gap 1.5  Tp 6.0   k 1e+05: sigma 0.822  max 0.945
+     gap 1.5  Tp 6.0   k 1e+07: sigma 0.906  max 0.891
+     gap 1.5  Tp 12.0  k 1e+05: sigma 0.865  max 0.764
+     gap 1.5  Tp 12.0  k 1e+07: sigma 0.947  max 0.898
+     gap 5    Tp 6.0   k 1e+05: sigma 0.995  max 1.220
+     gap 5    Tp 6.0   k 1e+07: sigma 0.912  max 0.908
+     gap 5    Tp 12.0  k 1e+05: sigma 0.957  max 0.907
+     gap 5    Tp 12.0  k 1e+07: sigma 0.963  max 0.929
+2026-11-24T11:21:49-03:00

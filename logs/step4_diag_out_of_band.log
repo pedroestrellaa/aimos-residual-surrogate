@@ -1,0 +1,14 @@
+log10k 5.0  Hs 1.0 Tp 9.0: variance share > 2.2 rad/s =   0.29 %  (peak at 3.53 rad/s)   r_sigma -0.021   OK
+log10k 5.0  Hs 3.5 Tp 7.0: variance share > 2.2 rad/s =   7.67 %  (peak at 3.53 rad/s)   r_sigma +0.135   ARTIFACT RISK
+log10k 5.3  Hs 1.0 Tp 9.0: variance share > 2.2 rad/s =   0.23 %  (peak at 2.24 rad/s)   r_sigma -0.014   OK
+log10k 5.3  Hs 3.5 Tp 7.0: variance share > 2.2 rad/s =   9.04 %  (peak at 2.82 rad/s)   r_sigma +0.072   ARTIFACT RISK
+log10k 5.5  Hs 1.0 Tp 9.0: variance share > 2.2 rad/s =   1.51 %  (peak at 2.36 rad/s)   r_sigma -0.012   OK
+log10k 5.5  Hs 3.5 Tp 7.0: variance share > 2.2 rad/s =  11.46 %  (peak at 2.71 rad/s)   r_sigma +0.049   ARTIFACT RISK
+log10k 5.7  Hs 1.0 Tp 9.0: variance share > 2.2 rad/s =   4.20 %  (peak at 2.70 rad/s)   r_sigma -0.000   ARTIFACT RISK
+log10k 5.7  Hs 3.5 Tp 7.0: variance share > 2.2 rad/s =  11.14 %  (peak at 2.82 rad/s)   r_sigma +0.017   ARTIFACT RISK
+log10k 5.9  Hs 1.0 Tp 9.0: variance share > 2.2 rad/s =   1.16 %  (peak at 3.15 rad/s)   r_sigma -0.017   OK
+log10k 5.9  Hs 3.5 Tp 7.0: variance share > 2.2 rad/s =   3.99 %  (peak at 3.27 rad/s)   r_sigma -0.037   ARTIFACT RISK
+log10k 6.2  Hs 1.0 Tp 9.0: variance share > 2.2 rad/s =   0.27 %  (peak at 4.17 rad/s)   r_sigma -0.021   OK
+log10k 6.2  Hs 3.5 Tp 7.0: variance share > 2.2 rad/s =   1.15 %  (peak at 4.21 rad/s)   r_sigma -0.059   OK
+log10k 7.0  Hs 1.0 Tp 9.0: variance share > 2.2 rad/s =   0.07 %  (peak at 2.78 rad/s)   r_sigma -0.022   OK
+log10k 7.0  Hs 3.5 Tp 7.0: variance share > 2.2 rad/s =   0.34 %  (peak at 2.82 rad/s)   r_sigma -0.066   OK

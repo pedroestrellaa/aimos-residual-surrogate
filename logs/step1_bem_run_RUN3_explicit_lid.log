@@ -1,0 +1,19 @@
+2026-11-24T10:35:05-03:00
+[10:35:06] WARNING  Inverting the direction of the normal vectors of            
+           WARNING  Inverting the direction of the normal vectors of            
+gap=0.5 m  panels=640  solve=42.3 s  -> bem_gap0.5_res1.npz
+[10:35:49] WARNING  Inverting the direction of the normal vectors of            
+           WARNING  Inverting the direction of the normal vectors of            
+gap=1 m  panels=640  solve=47.8 s  -> bem_gap1_res1.npz
+[10:36:37] WARNING  Inverting the direction of the normal vectors of            
+           WARNING  Inverting the direction of the normal vectors of            
+gap=2 m  panels=640  solve=50.1 s  -> bem_gap2_res1.npz
+[10:37:28] WARNING  Inverting the direction of the normal vectors of            
+           WARNING  Inverting the direction of the normal vectors of            
+gap=3 m  panels=640  solve=41.4 s  -> bem_gap3_res1.npz
+[10:38:10] WARNING  Inverting the direction of the normal vectors of            
+           WARNING  Inverting the direction of the normal vectors of            
+gap=5 m  panels=640  solve=41.1 s  -> bem_gap5_res1.npz
+                    because of ValueError('Diffraction problems at zero or      
+gap=2 m  panels=2560  solve=190.5 s  -> bem_gap2_res0.5.npz
+2026-11-24T10:42:07-03:00

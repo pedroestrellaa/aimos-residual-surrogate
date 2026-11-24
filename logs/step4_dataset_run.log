@@ -1,0 +1,16 @@
+2026-11-24T11:34:49-03:00
+truth coefficients: CD=1.0 DELTA0=0.5 CG_COEF=50000.0
+100/1200 cases  336 s
+200/1200 cases  651 s
+300/1200 cases  966 s
+400/1200 cases  1281 s
+500/1200 cases  1606 s
+600/1200 cases  1931 s
+700/1200 cases  2264 s
+800/1200 cases  2580 s
+900/1200 cases  2921 s
+1000/1200 cases  2979 s
+1100/1200 cases  3328 s
+1200/1200 cases  3580 s
+wrote dataset.csv: 1200 rows in 3581 s
+2026-11-24T12:34:31-03:00

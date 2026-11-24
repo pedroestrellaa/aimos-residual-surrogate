@@ -1,0 +1,17 @@
+2026-11-24T16:13:02-03:00
+log10k 5.0  Hs 1.0 Tp 9.0: share 2.2-4 rad/s   0.22 %  share > 4 rad/s  0.07 %  (peak > 2.2 at 3.53)   r_sigma -0.024   OK
+log10k 5.0  Hs 3.5 Tp 7.0: share 2.2-4 rad/s   6.48 %  share > 4 rad/s  1.13 %  (peak > 2.2 at 3.53)   r_sigma +0.131   OK
+log10k 5.3  Hs 1.0 Tp 9.0: share 2.2-4 rad/s   0.20 %  share > 4 rad/s  0.03 %  (peak > 2.2 at 2.24)   r_sigma -0.019   OK
+log10k 5.3  Hs 3.5 Tp 7.0: share 2.2-4 rad/s   7.76 %  share > 4 rad/s  1.07 %  (peak > 2.2 at 2.82)   r_sigma +0.068   OK
+log10k 5.5  Hs 1.0 Tp 9.0: share 2.2-4 rad/s   0.86 %  share > 4 rad/s  0.03 %  (peak > 2.2 at 2.43)   r_sigma -0.018   OK
+log10k 5.5  Hs 3.5 Tp 7.0: share 2.2-4 rad/s   9.85 %  share > 4 rad/s  0.92 %  (peak > 2.2 at 2.71)   r_sigma +0.042   OK
+log10k 5.7  Hs 1.0 Tp 9.0: share 2.2-4 rad/s   2.86 %  share > 4 rad/s  0.03 %  (peak > 2.2 at 2.71)   r_sigma -0.010   OK
+log10k 5.7  Hs 3.5 Tp 7.0: share 2.2-4 rad/s   9.77 %  share > 4 rad/s  0.48 %  (peak > 2.2 at 2.82)   r_sigma +0.010   OK
+log10k 5.9  Hs 1.0 Tp 9.0: share 2.2-4 rad/s   0.85 %  share > 4 rad/s  0.02 %  (peak > 2.2 at 3.18)   r_sigma -0.021   OK
+log10k 5.9  Hs 3.5 Tp 7.0: share 2.2-4 rad/s   3.44 %  share > 4 rad/s  0.16 %  (peak > 2.2 at 3.27)   r_sigma -0.042   OK
+log10k 6.2  Hs 1.0 Tp 9.0: share 2.2-4 rad/s   0.09 %  share > 4 rad/s  0.15 %  (peak > 2.2 at 4.19)   r_sigma -0.024   OK
+log10k 6.2  Hs 3.5 Tp 7.0: share 2.2-4 rad/s   0.74 %  share > 4 rad/s  0.36 %  (peak > 2.2 at 4.21)   r_sigma -0.062   OK
+log10k 7.0  Hs 1.0 Tp 9.0: share 2.2-4 rad/s   0.05 %  share > 4 rad/s  0.02 %  (peak > 2.2 at 9.91)   r_sigma -0.024   OK
+log10k 7.0  Hs 3.5 Tp 7.0: share 2.2-4 rad/s   0.29 %  share > 4 rad/s  0.04 %  (peak > 2.2 at 2.82)   r_sigma -0.068   OK
+G5 out-of-band: PASS
+2026-11-24T16:13:23-03:00

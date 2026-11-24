@@ -1,0 +1,12 @@
+lid None  omega 0.8:  B33 radiation    350.6  Haskind    338.9 kNs/m   ratio 1.035
+lid None  omega 1.2:  B33 radiation    422.9  Haskind    407.7 kNs/m   ratio 1.037
+lid None  omega 1.6:  B33 radiation    305.8  Haskind    291.3 kNs/m   ratio 1.050
+lid None  omega 2.0:  B33 radiation    161.3  Haskind    145.2 kNs/m   ratio 1.111
+lid None  omega 2.8:  B33 radiation     17.5  Haskind     16.3 kNs/m   ratio 1.074
+lid None  omega 3.5:  B33 radiation     -0.3  Haskind      4.9 kNs/m   ratio -0.057
+lid -0.1  omega 0.8:  B33 radiation    292.2  Haskind    330.5 kNs/m   ratio 0.884
+lid -0.1  omega 1.2:  B33 radiation    338.7  Haskind    260.6 kNs/m   ratio 1.300
+lid -0.1  omega 1.6:  B33 radiation    286.3  Haskind    206.5 kNs/m   ratio 1.386
+lid -0.1  omega 2.0:  B33 radiation    227.0  Haskind    436.7 kNs/m   ratio 0.520
+lid -0.1  omega 2.8:  B33 radiation    117.8  Haskind    150.2 kNs/m   ratio 0.784
+lid -0.1  omega 3.5:  B33 radiation    315.1  Haskind    157.7 kNs/m   ratio 1.998

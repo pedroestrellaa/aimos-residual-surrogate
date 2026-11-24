@@ -1,0 +1,9 @@
+cylinder (closed, clipped)  generate_lid(z=0.0): faces 157   B33 lid/nolid at 0.8,1.2,1.6: 1.004, 1.007, 1.012
+cylinder (closed, clipped)  generate_lid(z=-0.05): faces 130   B33 lid/nolid at 0.8,1.2,1.6: 1.003, 1.006, 1.010
+                            nb_faces hull 390, z range -2.00..0.00, normals z of bottom faces mean -1.00
+box closed, clipped         generate_lid(z=0.0): faces 0
+box closed, clipped         generate_lid(z=-0.05): faces 0
+                            nb_faces hull 320, z range -2.00..0.00, normals z of bottom faces mean -1.00
+box open-top (mine)         generate_lid(z=0.0): faces 0
+box open-top (mine)         generate_lid(z=-0.05): faces 0
+                            nb_faces hull 320, z range -2.00..0.00, normals z of bottom faces mean -1.00

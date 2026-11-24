@@ -1,0 +1,12 @@
+lid z=0.0   size x1.0  panel 1.0 m:  B33 lid/nolid 0.832, 0.795, 0.923   fail
+lid z=0.0   size x0.98 panel 1.0 m:  B33 lid/nolid 0.839, 0.801, 0.928   fail
+lid z=0.0   size x0.95 panel 1.0 m:  B33 lid/nolid 0.850, 0.810, 0.935   fail
+lid z=0.0   size x1.0  panel 0.5 m:  B33 lid/nolid 0.832, 0.795, 0.920   fail
+lid z=-0.02 size x1.0  panel 1.0 m:  B33 lid/nolid 0.857, 0.849, 1.051   fail
+lid z=-0.02 size x0.98 panel 1.0 m:  B33 lid/nolid 0.862, 0.852, 1.044   fail
+lid z=-0.02 size x0.95 panel 1.0 m:  B33 lid/nolid 0.870, 0.856, 1.035   fail
+lid z=-0.02 size x1.0  panel 0.5 m:  B33 lid/nolid 0.838, 0.808, 0.954   fail
+lid z=-0.1  size x1.0  panel 1.0 m:  B33 lid/nolid 0.833, 0.801, 0.936   fail
+lid z=-0.1  size x0.98 panel 1.0 m:  B33 lid/nolid 0.840, 0.806, 0.939   fail
+lid z=-0.1  size x0.95 panel 1.0 m:  B33 lid/nolid 0.850, 0.814, 0.943   fail
+lid z=-0.1  size x1.0  panel 0.5 m:  B33 lid/nolid 0.830, 0.793, 0.916   fail

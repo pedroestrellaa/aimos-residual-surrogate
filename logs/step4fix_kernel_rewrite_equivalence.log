@@ -1,0 +1,1 @@
+kernel rewrite equivalence: max |K_new-K_old|/max|K_old| = 4.47e-15   time old 0.70 s, new 0.04 s

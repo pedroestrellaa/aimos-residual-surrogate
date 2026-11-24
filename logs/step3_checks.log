@@ -1,0 +1,67 @@
+2026-11-24T11:21:57-03:00
+G1 kernel quality
+  gap 1.5 m  Ogilvie A_inf spread                                      0.0168   tol 0.03   PASS
+  gap 1.5 m  A_inf vs BEM                                              0.0046   tol 0.03   PASS
+  gap 1.5 m  kernel tail                                               0.0080   tol 0.02   PASS
+  gap 2 m  Ogilvie A_inf spread                                        0.0143   tol 0.03   PASS
+  gap 2 m  A_inf vs BEM                                                0.0049   tol 0.03   PASS
+  gap 2 m  kernel tail                                                 0.0049   tol 0.02   PASS
+  gap 3 m  Ogilvie A_inf spread                                        0.0157   tol 0.03   PASS
+  gap 3 m  A_inf vs BEM                                                0.0053   tol 0.03   PASS
+  gap 3 m  kernel tail                                                 0.0038   tol 0.02   PASS
+  gap 4 m  Ogilvie A_inf spread                                        0.0161   tol 0.03   PASS
+  gap 4 m  A_inf vs BEM                                                0.0058   tol 0.03   PASS
+  gap 4 m  kernel tail                                                 0.0029   tol 0.02   PASS
+  gap 5 m  Ogilvie A_inf spread                                        0.0172   tol 0.03   PASS
+  gap 5 m  A_inf vs BEM                                                0.0066   tol 0.03   PASS
+  gap 5 m  kernel tail                                                 0.0026   tol 0.02   PASS
+G2 linear gate: nonlinear terms OFF, 1800 s, identical wave realisation
+  gap 1.5 k 1e+05 Tp  6.0: |sigma ratio - 1|                           0.0126   tol 0.03   PASS
+  gap 1.5 k 1e+05 Tp  6.0: RMS diff / sigma                            0.0217   tol 0.05   PASS
+  gap 1.5 k 1e+05 Tp 12.0: |sigma ratio - 1|                           0.0111   tol 0.03   PASS
+  gap 1.5 k 1e+05 Tp 12.0: RMS diff / sigma                            0.0198   tol 0.05   PASS
+  gap 1.5 k 1e+06 Tp  6.0: |sigma ratio - 1|                           0.0098   tol 0.03   PASS
+  gap 1.5 k 1e+06 Tp  6.0: RMS diff / sigma                            0.0151   tol 0.05   PASS
+  gap 1.5 k 1e+06 Tp 12.0: |sigma ratio - 1|                           0.0077   tol 0.03   PASS
+  gap 1.5 k 1e+06 Tp 12.0: RMS diff / sigma                            0.0137   tol 0.05   PASS
+  gap 1.5 k 1e+07 Tp  6.0: |sigma ratio - 1|                           0.0099   tol 0.03   PASS
+  gap 1.5 k 1e+07 Tp  6.0: RMS diff / sigma                            0.0120   tol 0.05   PASS
+  gap 1.5 k 1e+07 Tp 12.0: |sigma ratio - 1|                           0.0080   tol 0.03   PASS
+  gap 1.5 k 1e+07 Tp 12.0: RMS diff / sigma                            0.0118   tol 0.05   PASS
+  gap 5 k 1e+05 Tp  6.0: |sigma ratio - 1|                             0.0129   tol 0.03   PASS
+  gap 5 k 1e+05 Tp  6.0: RMS diff / sigma                              0.0171   tol 0.05   PASS
+  gap 5 k 1e+05 Tp 12.0: |sigma ratio - 1|                             0.0101   tol 0.03   PASS
+  gap 5 k 1e+05 Tp 12.0: RMS diff / sigma                              0.0157   tol 0.05   PASS
+  gap 5 k 1e+06 Tp  6.0: |sigma ratio - 1|                             0.0096   tol 0.03   PASS
+  gap 5 k 1e+06 Tp  6.0: RMS diff / sigma                              0.0122   tol 0.05   PASS
+  gap 5 k 1e+06 Tp 12.0: |sigma ratio - 1|                             0.0062   tol 0.03   PASS
+  gap 5 k 1e+06 Tp 12.0: RMS diff / sigma                              0.0103   tol 0.05   PASS
+  gap 5 k 1e+07 Tp  6.0: |sigma ratio - 1|                             0.0095   tol 0.03   PASS
+  gap 5 k 1e+07 Tp  6.0: RMS diff / sigma                              0.0112   tol 0.05   PASS
+  gap 5 k 1e+07 Tp 12.0: |sigma ratio - 1|                             0.0059   tol 0.03   PASS
+  gap 5 k 1e+07 Tp 12.0: RMS diff / sigma                              0.0099   tol 0.05   PASS
+G3 time-step convergence: all terms ON, dt 0.05 vs 0.025 s
+  gap 1.5 k 1e+07: |sigma(0.05)/sigma(0.025) - 1|                      0.0047   tol 0.02   PASS
+  gap 1.5 k 1e+07: |max(0.05)/max(0.025) - 1|                          0.0035   tol 0.03   PASS
+  gap 5 k 1e+05: |sigma(0.05)/sigma(0.025) - 1|                        0.0055   tol 0.02   PASS
+  gap 5 k 1e+05: |max(0.05)/max(0.025) - 1|                            0.0060   tol 0.03   PASS
+G4 effect of each nonlinear term (Hs 3 m, Tp 7 s): sigma_NL/sigma_L , max_NL/max_L
+  drag only         gap 1.5  k 1e+05:  sigma 0.878   max 0.744
+  drag only         gap 1.5  k 1e+07:  sigma 0.937   max 0.956
+  drag only         gap 5    k 1e+05:  sigma 0.905   max 0.774
+  drag only         gap 5    k 1e+07:  sigma 0.945   max 0.946
+  hardening only    gap 1.5  k 1e+05:  sigma 1.341   max 2.180
+  hardening only    gap 1.5  k 1e+07:  sigma 0.992   max 0.995
+  hardening only    gap 5    k 1e+05:  sigma 1.457   max 3.020
+  hardening only    gap 5    k 1e+07:  sigma 0.992   max 0.994
+  gap damping only  gap 1.5  k 1e+05:  sigma 0.838   max 0.675
+  gap damping only  gap 1.5  k 1e+07:  sigma 0.992   max 0.995
+  gap damping only  gap 5    k 1e+05:  sigma 0.942   max 0.841
+  gap damping only  gap 5    k 1e+07:  sigma 0.992   max 0.995
+  all on            gap 1.5  k 1e+05:  sigma 1.030   max 1.252
+  all on            gap 1.5  k 1e+07:  sigma 0.937   max 0.956
+  all on            gap 5    k 1e+05:  sigma 1.222   max 1.743
+  all on            gap 5    k 1e+07:  sigma 0.945   max 0.946
+Figure: figures/step3_time_domain.png   wall time 135 s
+ALL CHECKS PASS
+2026-11-24T11:24:12-03:00

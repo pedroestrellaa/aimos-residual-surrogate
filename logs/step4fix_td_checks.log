@@ -1,0 +1,48 @@
+2026-11-24T14:37:58-03:00
+G1 kernel quality
+  gap 1.5 m  Ogilvie A_inf spread                                      0.0122   tol 0.03   PASS
+  gap 1.5 m  A_inf vs BEM                                              0.0071   tol 0.03   PASS
+  gap 1.5 m  kernel tail                                               0.0066   tol 0.02   PASS
+  gap 2 m  Ogilvie A_inf spread                                        0.0099   tol 0.03   PASS
+  gap 2 m  A_inf vs BEM                                                0.0068   tol 0.03   PASS
+  gap 2 m  kernel tail                                                 0.0035   tol 0.02   PASS
+  gap 3 m  Ogilvie A_inf spread                                        0.0085   tol 0.03   PASS
+  gap 3 m  A_inf vs BEM                                                0.0065   tol 0.03   PASS
+  gap 3 m  kernel tail                                                 0.0017   tol 0.02   PASS
+  gap 4 m  Ogilvie A_inf spread                                        0.0081   tol 0.03   PASS
+  gap 4 m  A_inf vs BEM                                                0.0060   tol 0.03   PASS
+  gap 4 m  kernel tail                                                 0.0006   tol 0.02   PASS
+  gap 5 m  Ogilvie A_inf spread                                        0.0069   tol 0.03   PASS
+  gap 5 m  A_inf vs BEM                                                0.0053   tol 0.03   PASS
+  gap 5 m  kernel tail                                                 0.0002   tol 0.02   PASS
+G2 linear gate: nonlinear terms OFF, 1800 s, identical wave realisation
+  gap 1.5 k 1e+05 Tp  6.0: |sigma ratio - 1|                           0.0133   tol 0.03   PASS
+  gap 1.5 k 1e+05 Tp  6.0: RMS diff / sigma                            0.0161   tol 0.05   PASS
+  gap 1.5 k 1e+05 Tp 12.0: |sigma ratio - 1|                           0.0125   tol 0.03   PASS
+  gap 1.5 k 1e+05 Tp 12.0: RMS diff / sigma                            0.0158   tol 0.05   PASS
+  gap 1.5 k 1e+06 Tp  6.0: |sigma ratio - 1|                           0.0129   tol 0.03   PASS
+  gap 1.5 k 1e+06 Tp  6.0: RMS diff / sigma                            0.0157   tol 0.05   PASS
+  gap 1.5 k 1e+06 Tp 12.0: |sigma ratio - 1|                           0.0110   tol 0.03   PASS
+  gap 1.5 k 1e+06 Tp 12.0: RMS diff / sigma                            0.0147   tol 0.05   PASS
+  gap 1.5 k 1e+07 Tp  6.0: |sigma ratio - 1|                           0.0128   tol 0.03   PASS
+  gap 1.5 k 1e+07 Tp  6.0: RMS diff / sigma                            0.0149   tol 0.05   PASS
+  gap 1.5 k 1e+07 Tp 12.0: |sigma ratio - 1|                           0.0112   tol 0.03   PASS
+  gap 1.5 k 1e+07 Tp 12.0: RMS diff / sigma                            0.0147   tol 0.05   PASS
+  gap 5 k 1e+05 Tp  6.0: |sigma ratio - 1|                             0.0152   tol 0.03   PASS
+  gap 5 k 1e+05 Tp  6.0: RMS diff / sigma                              0.0164   tol 0.05   PASS
+  gap 5 k 1e+05 Tp 12.0: |sigma ratio - 1|                             0.0124   tol 0.03   PASS
+  gap 5 k 1e+05 Tp 12.0: RMS diff / sigma                              0.0151   tol 0.05   PASS
+  gap 5 k 1e+06 Tp  6.0: |sigma ratio - 1|                             0.0120   tol 0.03   PASS
+  gap 5 k 1e+06 Tp  6.0: RMS diff / sigma                              0.0136   tol 0.05   PASS
+  gap 5 k 1e+06 Tp 12.0: |sigma ratio - 1|                             0.0086   tol 0.03   PASS
+  gap 5 k 1e+06 Tp 12.0: RMS diff / sigma                              0.0122   tol 0.05   PASS
+  gap 5 k 1e+07 Tp  6.0: |sigma ratio - 1|                             0.0118   tol 0.03   PASS
+  gap 5 k 1e+07 Tp  6.0: RMS diff / sigma                              0.0133   tol 0.05   PASS
+  gap 5 k 1e+07 Tp 12.0: |sigma ratio - 1|                             0.0082   tol 0.03   PASS
+  gap 5 k 1e+07 Tp 12.0: RMS diff / sigma                              0.0118   tol 0.05   PASS
+G3 time-step convergence: all terms ON, dt 0.05 vs 0.025 s
+  gap 1.5 k 1e+07: |sigma(0.05)/sigma(0.025) - 1|                      0.0049   tol 0.02   PASS
+  gap 1.5 k 1e+07: |max(0.05)/max(0.025) - 1|                          0.0037   tol 0.03   PASS
+  gap 5 k 1e+05: |sigma(0.05)/sigma(0.025) - 1|                        0.0059   tol 0.02   PASS
+  gap 5 k 1e+05: |max(0.05)/max(0.025) - 1|                            0.0056   tol 0.03   PASS
+(run stopped by PH during G4 after ~60 min; G1-G3 complete above. G4 is a report, not a gate. Slowness: 410 MB kernel broadcast per worker, since rewritten - see step4fix_kernel_rewrite_equivalence.log)

@@ -1,0 +1,27 @@
+D1 completeness (1200 rows)
+  non-finite values                                              0.0000   tol 0        PASS
+  all load statistics > 0                                        1.0000   tol 1        PASS
+D2 same-sea linear vs spectral linear (sampling noise of one 30-min record)
+  mean(sigma_Lr/sigma_L) - 1                                     0.0002   tol 0.02     PASS
+  std(sigma_Lr/sigma_L) = 0.0279   (narrow-band estimate of sampling noise ~ 0.0393; wider is expected for peaked spectra)
+D3 coverage
+  Hs: min cases in any of 10 bins                              120.0000   tol >= 0.08N PASS
+  Tp: min cases in any of 10 bins                              120.0000   tol >= 0.08N PASS
+  log10k: min cases in any of 10 bins                          120.0000   tol >= 0.08N PASS
+  gap 1.5 m: cases                                             240.0000   tol >= 200   PASS
+  gap 2 m: cases                                               240.0000   tol >= 200   PASS
+  gap 3 m: cases                                               240.0000   tol >= 200   PASS
+  gap 4 m: cases                                               240.0000   tol >= 200   PASS
+  gap 5 m: cases                                               240.0000   tol >= 200   PASS
+Residual summary: r = ln(truth / same-sea linear)   [mean, p05, p95]
+  all          r_sigma -0.015 [-0.058, +0.062]   r_max +0.055 [-0.100, +0.459]
+  gap 1.5      r_sigma -0.026 [-0.058, +0.006]   r_max +0.029 [-0.095, +0.279]
+  gap 2        r_sigma -0.023 [-0.061, +0.018]   r_max +0.027 [-0.104, +0.377]
+  gap 3        r_sigma -0.014 [-0.058, +0.063]   r_max +0.061 [-0.108, +0.465]
+  gap 4        r_sigma -0.010 [-0.054, +0.078]   r_max +0.065 [-0.094, +0.479]
+  gap 5        r_sigma -0.000 [-0.055, +0.104]   r_max +0.095 [-0.085, +0.572]
+  k < 1e5.67   r_sigma +0.020 [-0.022, +0.104]   r_max +0.238 [-0.022, +0.571]
+  k > 1e6.33   r_sigma -0.039 [-0.066, -0.016]   r_max -0.049 [-0.100, -0.013]
+  Fraction of variance of ln(sigma_NL) explained by ln(sigma_Lr): 0.9966
+Figure: figures/step4_dataset.png
+ALL CHECKS PASS

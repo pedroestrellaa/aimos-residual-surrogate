@@ -1,0 +1,31 @@
+C1 reciprocity, C2 identical bodies, C5 damping sign (all gaps)
+  gap 0.5 m  C1 max rel. asymmetry                        9.167e-02   tol 0.01     FAIL
+  gap 0.5 m  C2 body1 vs body2 radiation diag             9.844e-16   tol 0.01     PASS
+  gap 0.5 m  C5 most negative B_ii (rel.)                -3.752e-01   tol 1e-06    FAIL
+  gap   1 m  C1 max rel. asymmetry                        6.829e-02   tol 0.01     FAIL
+  gap   1 m  C2 body1 vs body2 radiation diag             1.164e-15   tol 0.01     PASS
+  gap   1 m  C5 most negative B_ii (rel.)                -2.384e-01   tol 1e-06    FAIL
+  gap   2 m  C1 max rel. asymmetry                        3.858e-02   tol 0.01     FAIL
+  gap   2 m  C2 body1 vs body2 radiation diag             1.523e-15   tol 0.01     PASS
+  gap   2 m  C5 most negative B_ii (rel.)                -1.964e-01   tol 1e-06    FAIL
+  gap   3 m  C1 max rel. asymmetry                        2.233e-02   tol 0.01     FAIL
+  gap   3 m  C2 body1 vs body2 radiation diag             8.142e-16   tol 0.01     PASS
+  gap   3 m  C5 most negative B_ii (rel.)                -1.751e-01   tol 1e-06    FAIL
+  gap   5 m  C1 max rel. asymmetry                        2.103e-02   tol 0.01     FAIL
+  gap   5 m  C2 body1 vs body2 radiation diag             1.526e-15   tol 0.01     PASS
+  gap   5 m  C5 most negative B_ii (rel.)                -1.519e-01   tol 1e-06    FAIL
+C3 long-wave limit (gap 2 m, lowest omega)
+  |F_heave|/K33 at omega=0.20 rad/s                       9.589e-01   tol 0.05     PASS
+C4 mesh convergence (gap 2 m, 1.0 m vs 0.5 m panels), omega 0.6-1.8 rad/s
+  A33 max rel. difference                                 6.861e-03   tol 0.05     PASS
+  B33 max rel. difference                                 6.173e-03   tol 0.05     PASS
+  |F3| max rel. difference                                2.523e-03   tol 0.05     PASS
+Interaction strength: max |A(b1 heave, b2 heave)| / max |A(b1 heave, b1 heave)|
+  gap 0.5 m   0.312
+  gap   1 m   0.302
+  gap   2 m   0.286
+  gap   3 m   0.272
+  gap   5 m   0.249
+Heave natural frequency (uncoupled, fixed-point): 1.37 rad/s  (T = 4.6 s)
+Figure: figures/step1_bem_checks.png
+SOME CHECKS FAILED

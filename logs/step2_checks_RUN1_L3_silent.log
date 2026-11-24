@@ -1,0 +1,22 @@
+2026-11-24T10:51:08-03:00
+L1 spectrum normalisation
+  Hs=1.0 Tp=6: |4 sqrt(m0) - Hs|/Hs                             1.1102e-16   tol 0.005   PASS
+  Hs=2.5 Tp=9: |4 sqrt(m0) - Hs|/Hs                             1.7764e-16   tol 0.005   PASS
+  Hs=4.0 Tp=12: |4 sqrt(m0) - Hs|/Hs                            0.0000e+00   tol 0.005   PASS
+L2 wave energy outside 0.2-2.2 rad/s (reported; flagged if > 5%)
+  Tp =  6 s    4.01 %   OK
+  Tp =  7 s    2.20 %   OK
+  Tp =  8 s    1.30 %   OK
+  Tp = 10 s    0.53 %   OK
+  Tp = 12 s    0.26 %   OK
+L3 grid convergence: 60-pt BEM grid vs 600-pt linear interpolation of the complex RAO
+  (no line above = all 27 combinations within 2%)
+L4 Monte-Carlo: random-phase linear time series, 20 realisations x 3 h, dt 0.2 s
+  gap 2 k 1e+07 Hs 2.0 Tp 8: sigma_MC vs sigma_FD               2.5825e-03   tol 0.03    PASS
+  gap 1.5 k 1e+05 Hs 3.0 Tp 6: sigma_MC vs sigma_FD             1.4301e-03   tol 0.03    PASS
+  gap 5 k 1e+06 Hs 1.5 Tp 11: sigma_MC vs sigma_FD              1.3950e-03   tol 0.03    PASS
+L5 zero-stiffness limit
+  sigma_F(k=1e-3) / sigma_F(k=1e7)                              1.5146e-08   tol 0.001   PASS
+Figure: figures/step2_linear_fd.png
+ALL CHECKS PASS
+2026-11-24T10:54:32-03:00

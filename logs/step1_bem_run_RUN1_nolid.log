@@ -1,0 +1,14 @@
+2026-11-24T10:25:10-03:00
+                    because of ValueError('Diffraction problems at zero or      
+gap=0.5 m  panels=640  solve=35.0 s  -> bem_gap0.5_res1.npz
+                    because of ValueError('Diffraction problems at zero or      
+gap=1 m  panels=640  solve=37.1 s  -> bem_gap1_res1.npz
+                    because of ValueError('Diffraction problems at zero or      
+gap=2 m  panels=640  solve=34.4 s  -> bem_gap2_res1.npz
+                    because of ValueError('Diffraction problems at zero or      
+gap=3 m  panels=640  solve=31.7 s  -> bem_gap3_res1.npz
+                    because of ValueError('Diffraction problems at zero or      
+gap=5 m  panels=640  solve=31.9 s  -> bem_gap5_res1.npz
+                    because of ValueError('Diffraction problems at zero or      
+gap=2 m  panels=2560  solve=74.6 s  -> bem_gap2_res0.5.npz
+2026-11-24T10:29:19-03:00

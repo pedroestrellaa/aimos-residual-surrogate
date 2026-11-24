@@ -1,0 +1,4 @@
+2026-11-24T16:39:42-03:00
+Noise floor (RMSE ln, exact linear expectation vs same-record linear statistic): {'peak': 0.0966, 'sigma': 0.0279}
+192 runs in 30 s -> results/step5_results.csv
+2026-11-24T16:40:13-03:00

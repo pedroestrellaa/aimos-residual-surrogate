@@ -1,0 +1,23 @@
+2026-11-24T10:43:19-03:00
+[10:44:03] WARNING  Skipped DiffractionProblem(body=Multibody([FloatingBody(...,
+                    because of ValueError('Diffraction problems at zero or      
+gap=1 m  panels=640  solve=43.0 s  -> bem_gap1_res1.npz
+[10:44:47] WARNING  Skipped DiffractionProblem(body=Multibody([FloatingBody(...,
+                    because of ValueError('Diffraction problems at zero or      
+gap=1.5 m  panels=640  solve=44.3 s  -> bem_gap1.5_res1.npz
+[10:45:23] WARNING  Skipped DiffractionProblem(body=Multibody([FloatingBody(...,
+                    because of ValueError('Diffraction problems at zero or      
+gap=2 m  panels=640  solve=35.7 s  -> bem_gap2_res1.npz
+[10:45:58] WARNING  Skipped DiffractionProblem(body=Multibody([FloatingBody(...,
+                    because of ValueError('Diffraction problems at zero or      
+gap=3 m  panels=640  solve=34.3 s  -> bem_gap3_res1.npz
+[10:46:37] WARNING  Skipped DiffractionProblem(body=Multibody([FloatingBody(...,
+                    because of ValueError('Diffraction problems at zero or      
+gap=4 m  panels=640  solve=39.2 s  -> bem_gap4_res1.npz
+[10:47:12] WARNING  Skipped DiffractionProblem(body=Multibody([FloatingBody(...,
+                    because of ValueError('Diffraction problems at zero or      
+gap=5 m  panels=640  solve=35.3 s  -> bem_gap5_res1.npz
+[10:48:41] WARNING  Skipped DiffractionProblem(body=Multibody([FloatingBody(...,
+                    because of ValueError('Diffraction problems at zero or      
+gap=2 m  panels=2560  solve=90.5 s  -> bem_gap2_res0.5.npz
+2026-11-24T10:48:45-03:00
