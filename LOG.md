@@ -257,3 +257,16 @@ Figure: `figures/step5_learning_curves.png` (top row run A, bottom row run B).
    to 0.87–0.91, as expected when exchangeability is broken; the intervals need recalibration for new configurations.
 6. **Limits:** synthetic truth with assumed coefficients; two bodies, head seas, 4 inputs; 5 repeats (small-N
    differences are indicative, not significant); run B is post-hoc.
+
+## 2026-11-24: Step 6, documents for publication
+
+- `README.md`: limits first, results, method with equations, verification table, reproduction, layout, references.
+  Voice checks: 0 em dashes, 0 contractions, mean sentence 12 words. Facts checked against the profile (name, degree).
+- `report/residual_surrogate_report.pdf`: 10-page technical report with every equation, check, failed run and result,
+  typeset with matplotlib (`src/report_engine.py`, `src/make_report.py`; no LaTeX on this machine). Text layer checked
+  with pypdf: 17,855 characters, no NUL, every probe found. Every page was inspected as an image; one overflowing
+  equation was split.
+- `figures/setup_schematic.png`, `figures/headline_result.png` (`src/make_figures.py`).
+- `LICENSE` (MIT), `requirements.txt`, `run_all.sh` (full reproduction in the order of this log).
+- Privacy scan of all public files: no private data. Repository 2.8 MB without the local wheel cache (ignored).
+- Git: repository-local identity, first commit 9523c6e. **Push is done by the author**, after review.
